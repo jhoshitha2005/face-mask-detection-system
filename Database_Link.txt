@@ -1,0 +1,19 @@
+Dataset Description:
+
+The dataset consists of 901 images belonging to two classes:
+- With Mask: 494 images
+- Without Mask: 407 images
+
+The dataset was split into training and validation sets:
+- Training images: 722
+- Validation images: 179
+
+Images were resized and normalized before training. Data generators were used for efficient loading and preprocessing.
+
+The dataset contains images collected from multiple sources and includes varied lighting, orientations, and real-world scenarios for better generalization.
+
+Google Drive Link:
+https://drive.google.com/drive/folders/1uXFfS9CZaRCdNNxSaqpPqArQb-VDaZ5_?usp=sharing
+
+Note:
+The dataset is hosted on Google Drive due to its large size and is used strictly for academic purposes.
