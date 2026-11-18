@@ -1,19 +1,20 @@
-Dataset Description:
+FACE MASK DETECTION DATASET
 
-The dataset consists of 901 images belonging to two classes:
-- With Mask: 494 images
-- Without Mask: 407 images
+Dataset Name: Face Mask Detection Dataset
 
-The dataset was split into training and validation sets:
-- Training images: 722
-- Validation images: 179
+Dataset Format: ZIP (JPG/PNG images)
 
-Images were resized and normalized before training. Data generators were used for efficient loading and preprocessing.
+Dataset Size: 163 MB
 
-The dataset contains images collected from multiple sources and includes varied lighting, orientations, and real-world scenarios for better generalization.
+Dataset Categories:
+- With Mask
+- Without Mask
 
-Google Drive Link:
-https://drive.google.com/drive/folders/1uXFfS9CZaRCdNNxSaqpPqArQb-VDaZ5_?usp=sharing
+Dataset Storage: Google Drive
 
-Note:
-The dataset is hosted on Google Drive due to its large size and is used strictly for academic purposes.
+Dataset Download Link:
+https://drive.google.com/drive/folders/1jlr2q-bpmLyMfTB4w_WxeP6CxWemrwc_?usp=drive_link
+
+The dataset is used for training and validating the MobileNetV2-based face mask classification model.
+
+The images are preprocessed and divided into training and validation subsets using Keras ImageDataGenerator.
